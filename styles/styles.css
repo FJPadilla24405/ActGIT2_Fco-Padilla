@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+header{
+    background-color: #ffffff;
+    height: 1vw;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h6 {
+    margin: 5px;
+}
+
+.nav {
+    background-color: yellow;
+    height: 5vw;
+    margin-top: 5vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav>div{
+    height: 1vw;
+    margin: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: yellow;
+    height: 5vw;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height:67.6vh;
+    width: 100w;
+}
+
+p {
+    margin: 10px;
+}
