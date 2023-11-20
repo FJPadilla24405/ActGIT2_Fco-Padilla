@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+header{
+    background-color: #ffffff;
+    height: 1vw;
+    width: 98.5vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h6 {
+    margin: 5px;
+}
+
+.nav {
+    background-color: yellow;
+    height: 5vw;
+    margin-top: 5vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav>div{
+    height: 1vw;
+    margin: 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: yellow;
+    height: 5vw;
+    width: 98.5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height:auto;
+    width: 100w;
+}
+
+p {
+    margin: 10px;
+}
+
+table {
+   
+    text-align: center;
+    margin:auto;
+    
+}
+
+
+th, tr, td {
+    border: 5px rgb(195, 255, 255) solid;
+    border-radius: 25%;
+    width: 98vw;
+    height: 0vw;
+}
+
+
+ .esquina {
+    border: 0px white solid;
+ }
+
+
+.nada {
+    border: 5px rgb(194, 251, 255) dotted;
+    background-color: rgba(170, 255, 255, 0.25);
+    color: rgb(194, 251, 255);
+    font-family: 'Finger Paint', cursive;
+    font-size: 125%;
+    height: 0vh;
+    padding: 3.5vh;
+}
+
+
+.prg {
+    border: 5px MediumOrchid solid;
+    background-color: Violet;
+    color: MediumOrchid;
+    font-family: 'Pixelify Sans';
+    font-size: 150%;
+}
+
+
+.lm {
+    border: 5px RoyalBlue solid;
+    background-color: rgb(104, 133, 212);
+    color: RoyalBlue;
+    font-family: 'Young Serif';
+    font-size: 125%;
+}
+
+
+.fol {
+    border: 5px rgb(139, 120, 248) solid;
+    background-color: rgb(175, 161, 235);
+    color: rgb(139, 120, 248);
+    font-family: 'Chokokutai', cursive;
+    font-size: 125%;
+}
+
+
+.bd {
+    border: 5px rgb(45, 158, 120) solid;
+    background-color: rgb(52, 209, 157);
+    color: rgb(45, 158, 120);
+    font-family: 'Audiowide', cursive;
+    font-size: 125%;
+}
+
+
+.ed {
+    border: 5px rgb(37, 37, 151) solid;
+    background-color: rgb(84, 84, 173);
+    color: rgb(37, 37, 151);
+    font-family: 'Lobster', cursive;
+    font-size: 125%;
+}
+
+
+.si {
+    border: 5px DarkTurquoise solid;
+    background-color: rgb(105, 223, 223);
+    color: DarkTurquoise;
+    font-family: 'Pacifico', cursive;
+    font-size: 125%;
+}
